@@ -10,7 +10,14 @@ html {
 }
 
 body {
-  background-color: whitesmoke;
+  background-image: linear-gradient(
+    to right top,
+    #ffffff,
+    #c5c4c5,
+    #8f8b8c,
+    #5c5756,
+    #2c2825
+  );
   color: #555;
   min-height: 100vh;
   display: flex;
@@ -41,10 +48,13 @@ img {
   opacity: 0;
   border-radius: 12px;
   padding: 2rem 1.5rem;
-  background: linear-gradient(
-    90deg,
-    rgba(44, 56, 190, 0.975) 50%,
-    rgb(33, 42, 158) 100%
+  background-image: linear-gradient(
+    to right top,
+    #4572c8,
+    #3c6cc6,
+    #3367c4,
+    #2861c2,
+    #1b5cc0
   );
   color: #fff;
   width: 40rem;
